@@ -2,7 +2,7 @@
 本固件适配斐讯 N1 旁路由模式，追求轻量（请注意：不具备 PPPoE、WiFi 相关功能）。<br>
 固件包含默认皮肤，以及下列 luci-app：<br>
 [luci-app-amlogic](https://github.com/ophub/luci-app-amlogic)：系统更新、文件传输、CPU 调频等<br>
-[luci-app-openclash](https://github.com/vernesong/OpenClash)：代理客户端
+[luci-app-daed](https://github.com/QiuSimons/luci-app-daed)：代理客户端
 ***
 # 精简说明
 为降低 N1 的存储占用、内存压力和后台服务数量，本固件默认移除了 IPv6、WireGuard、Docker/Dockerman、Samba4、Passwall、ZeroTier、PPPoE 与 WiFi 相关组件。<br>
